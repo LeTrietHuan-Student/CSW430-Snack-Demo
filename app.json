@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "CSW430 Exam Practice",
+    "slug": "csw430-exam-practice",
+    "platforms": ["ios", "android", "web"]
+  }
+}
