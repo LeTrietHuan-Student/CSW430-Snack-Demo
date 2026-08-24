@@ -3,10 +3,14 @@
 Worked answers to two past papers. Each is a single `App.js` importing only `react` and
 `react-native`, so Snack never runs its bundler and the dependency errors cannot happen.
 
-| Demo | Paper | Where |
+| Demo | Covers | Where |
 |---|---|---|
 | **Event Management** | GET/POST/PUT/DELETE on `dummyjson.com/posts`, 4 screens, 2 forms | `App.js` (this folder) |
 | **User Management** | GET only on `dummyjson.com/users`, 3 screens, no forms | `Demo2-UserManagement/` |
+| **KAMI** | login → Bearer token, then CRUD | `Demo3-KamiAuth/` |
+
+Demos 1 and 2 are worked answers to the two past papers. Demo 3 is insurance: neither past paper
+needed a login, so nothing else here shows how to carry a token.
 
 **To use either:** new Snack → paste its `App.js` over Snack's `App.js` → delete every other file
 in the tree (`package.json`, `index.js`, `components/`, `screens/`, `assets/`) → Save.
